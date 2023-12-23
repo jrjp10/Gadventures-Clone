@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.gadventures{
+    height: 120px;
+    
+}
+.gadventures .logo{
+    margin-top: 30px;
+}
+.gadventures .logo img{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+.gadventures .log{
+    float: right;
+    margin-top: -80px;
+    margin-right: 20px;
+}
+
+.text p{
+    text-align: right;
+    font-size: 20px;
+    margin-right: 20px;
+    
+    
+    
+    
+}
+.text h2{
+    text-align: right;
+    margin-right: 20px;
+    color: blueviolet;
+    
+    
+    
+}
+.bluebar{
+    display: flex;
+    background-color: #47268d ;
+    height:60px ;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bluebar p{
+    margin-left: 30px;
+}
+
+.bluebar .box{
+    display: flex;
+    
+}
+.bgimg{
+    background-image: url(https://media.gadventures.com/media-server/cache/0e/59/0e59f77ac879e37d053b5c57988999ee.jpg);
+   background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+.bgimg{
+    text-align: center;
+    padding: 100px 0px;
+}
+.bg h1{
+    font-size: 60px;
+}
+/* to set up search inside placeholder */
+.btn{
+    position: relative;
+    display: inline-block;
+    
+}
+input[type="text"] {
+  padding-right: 100px; /* make room for the button */
+}
+
+.search-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btn input{
+    width: 700px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+}
+.search-button{
+    width: 110px;
+    height: 50px;
+    border-radius: 40px;
+    background-color:#47268d;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.textt{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.textt p{
+    font-size: 20px;
+    margin-left: 30px;
+    
+    
+}
+.textt h2{
+    padding: 50px;
+    font-size: 40px;
+    
+}
+.country{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    color: gray;
+    margin-left: 20px;
+    font-size: 20px;
+
+
+}
+.country p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 20px;
+    
+    border: 1px solid black;
+
+
+}
+.flex-items{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    box-sizing: border-box;
+
+}
+
+.imge img{
+    width: 300px;
+    height: 300px;
+}
+.box{
+    padding: 50px;
+    align-items: 20px;
+   
+
+}
+.singlebox{
+    background-color: #47268d;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.grid-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 30px;
+    gap: 30px;
+    
+    
+    
+}
+.grid-item{
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(245, 243, 237);
+}
+
+.grid-item img{
+    width: 40px;
+}
+
+.footer{
+    display: flex;
+    height: 200px;
+    background-color:#333;
+    color: white;
+    
+}
+.ul{
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    padding: 44px;
+    gap: 100px;
+    margin-left: 100px;
+
+
+}
+
+
+
+
